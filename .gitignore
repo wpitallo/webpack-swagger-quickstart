@@ -1,0 +1,30 @@
+syntax: glob
+node_modules/
+bower_components/
+build/
+release/
+xman/
+log/
+logs/
+temp/
+resources/
+
+*.exe
+*.nupkg
+*.suo
+*.db
+*.log
+*.min.*
+.nodemonignore
+
+// IDE files
+.idea/*
+*.sln
+*.njsproj
+*.sublime-project
+*.sublime-workspace
+*.sublime*
+
+// OSx
+.DS_Store
+
